@@ -1,0 +1,12 @@
+to begin nextjs you must do the following:
+
+=> open command. Create nextjs app. 
+    (install tailwindcss nextjs)
+
+=> npm install page
+
+=> create .env.local file
+    input database info
+
+=> create db folder. Create connection file. 
+    input public database info.

@@ -1,0 +1,30 @@
+
+START POSTGRES COMMAND LINE
+	psql -U postgres
+
+CREATE DATABASE
+	CREATE DATABASE name;
+
+MOVE INTO DATABASE
+	\c database-name;
+
+CREATE TABLE
+	CREATE TABLE patients(
+	id SERIAL PRIMARY KEY, 
+	first_name VARCHAR(255),
+	last_name VARCHAR(255),
+	phone_number VARCHAR(255),
+	email VARCHAR(255)
+	);
+
+CHECK ALL TABLES
+\dt
+
+//serial means to add by increment 
+// varchar is limit of characters 
+
+ADD ROW INTO TABLE
+	INSERT INTO patients(first_name, last_name, phone_number,email) VALUES ('Judy', 'Doe', '832-389-0987','JudyD@gmail.com');
+
+GET ALL patients
+	SELECT * FROM patients;

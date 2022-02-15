@@ -1,0 +1,15 @@
+to create a detail page that once clicked it will send you to a page of it's own you must:
+
+=> create a file in page. 
+
+=> in that file create an [id].js and index.js file. 
+    (be sure to rafce both files and import pool so that you can use it)
+    (dont forget to use getStatisProps for both id and index and getStaticPaths for id)
+
+=> create a component page. In the component folder create a parent and child file. 
+    (dont forget to router.push that child)
+
+=> work on the backend in the api folder. Create 2 files one will be [id].js and index.js. For this purpose will be only be utilizing [id].js but make both to save time in the future. 
+    (be sure to import pool. Work on back end function to intereact with front end)
+
+    
